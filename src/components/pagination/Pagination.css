@@ -1,0 +1,58 @@
+.page-numbers {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.page-numbers li {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  height: 34px;
+  width: 38px;
+}
+
+.page-numbers li.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.prev-btn,
+.next-btn {
+  background-color: #282c34;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.prev-btn:hover {
+  background-color: #fff;
+  color: #282c34;
+  border-right: 1px solid #000;
+}
+
+.next-btn:hover {
+  background-color: #fff;
+  color: #282c34;
+  border-left: 1px solid #000;
+}
+
+.load-more {
+  margin-top: 25px;
+  padding: 10px;
+  color: #fff;
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.disabled {
+  cursor: not-allowed;
+  background-color: grey;
+}
